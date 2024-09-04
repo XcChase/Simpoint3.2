@@ -1,0 +1,7 @@
+# 忽略 bin 目录下的所有文件，但保留 Makefile
+/bin/*
+!/bin/Makefile
+
+# 忽略 analysiscode 目录下的所有 .d 和 .o 文件
+/analysiscode/*.d
+/analysiscode/*.o
