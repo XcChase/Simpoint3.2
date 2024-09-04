@@ -5,7 +5,7 @@ Simpoint:
 
 clean:
 	$(MAKE) -C analysiscode clean
-	rm -f bin/simpoint
+	rm -f bin/simpoint bin/simpoints bin/weights
 
 .PHONY: clean Simpoint
 

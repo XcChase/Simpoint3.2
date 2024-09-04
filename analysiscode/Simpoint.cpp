@@ -516,7 +516,7 @@ int Simpoint::findBestRun() {
 }
 
 vector<bool> Simpoint::getLargestClusters(double coveragePct, const Dataset &finalCenters) {
-    Utilities::check((bool)coveragePct >= 0 && coveragePct <= 1,
+    Utilities::check(coveragePct >= 0 && coveragePct <= 1,
             "getLargestClusters(): coveragePct is out of bounds");
 
     // sort the clusters by size
